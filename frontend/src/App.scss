@@ -1,0 +1,130 @@
+.header {
+  text-align: center;
+  .button {
+    font-size: 16px;
+    background-color: rgb(210, 205, 209);
+    color: #000000;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 10px;
+  }
+}
+.table {
+  .row {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    .col {
+      width: 25%;
+    }
+  }
+  .row.table-header {
+    border-bottom: 2px solid #cccccc;
+    font-weight: bold;
+  }
+}
+h1 {
+  text-align: center;
+}
+#todo-list {
+  width: 900px;
+  margin: 60px auto;
+}
+form, .todo {
+  border: 1px solid grey;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+form input {
+  padding: 4px 8px;
+  flex-grow: 1;
+  margin-right: 16px;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='text'] { font-size: 20px; font-family: monospace; }
+.todo input[type="checkbox"] {
+  transform: scale(1.8) translateY(1px);
+  margin: 0 16px 0 0;
+  cursor: pointer;
+}
+.todo-text input {
+  padding: 4px;
+}
+.todo-text {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+.todo-completed {
+  display: flex;
+  margin: 10px 0;
+}
+.todo-actions {
+  display: flex;
+  justify-content: right;
+}
+.list {
+  display: flex;
+}
+p {
+  padding: 0 60px 0 60px;
+}
+.edit-button {
+  background-color: #6b6e71;
+}
+.addButton {
+  background-color: #6b6e71;
+  color: rgb(40, 42, 45);
+}
+.addButton:hover {
+  background-color: rgb(173, 167, 171);
+}
+
+.removeButton {
+  background-color: #6b6e71;
+  color: rgb(40, 42, 45);
+}
+.formStyle {
+  margin: 20px;
+  padding: 20px 10px;
+}
+.cols {
+  text-align: center;
+  .logo {
+    height: 20px;
+    width: 20px;
+  }
+  .delete-button{
+    margin: 0 10px;
+  }
+  .confirm-button {
+    background-color: #dc0800;
+    margin: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #f7f7f7;
+    border: none;
+  }
+  .save-button {
+    background-color: #32dc28;
+    margin: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+  }
+}
